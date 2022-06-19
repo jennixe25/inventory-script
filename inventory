@@ -1,2 +1,10 @@
 #!/bin/bash
 #script for checking inventory
+free -m
+sleep 1
+echo "the no of your cpu is"
+sleep 1
+lscpu
+sleep 1
+echo "your harddrive is"
+lsblk
